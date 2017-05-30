@@ -8,3 +8,11 @@ C:\Users\Никита\Desktop\Programs\ImageViewer\ImageViewer\ImageViewer\obj\D
 C:\Users\Никита\Desktop\Programs\ImageViewer\ImageViewer\ImageViewer\obj\Debug\ImageViewer.csproj.GenerateResource.Cache
 C:\Users\Никита\Desktop\Programs\ImageViewer\ImageViewer\ImageViewer\obj\Debug\ImageViewer.exe
 C:\Users\Никита\Desktop\Programs\ImageViewer\ImageViewer\ImageViewer\obj\Debug\ImageViewer.pdb
+C:\Users\tigrn\Desktop\Programs\ImageViewer\ImageViewer\ImageViewer\obj\Debug\ImageViewer.exe
+C:\Users\tigrn\Desktop\Programs\ImageViewer\ImageViewer\ImageViewer\obj\Debug\ImageViewer.pdb
+C:\Users\tigrn\Desktop\Programs\ImageViewer\ImageViewer\ImageViewer\obj\Debug\ImageViewer.csprojResolveAssemblyReference.cache
+C:\Users\tigrn\Desktop\Programs\ImageViewer\ImageViewer\ImageViewer\obj\Debug\ImageViewer.Form1.resources
+C:\Users\tigrn\Desktop\Programs\ImageViewer\ImageViewer\ImageViewer\obj\Debug\ImageViewer.Properties.Resources.resources
+C:\Users\tigrn\Desktop\Programs\ImageViewer\ImageViewer\ImageViewer\obj\Debug\ImageViewer.csproj.GenerateResource.Cache
+C:\Users\tigrn\Desktop\Programs\ImageViewer\ImageViewer\ImageViewer\bin\Debug\ImageViewer.exe
+C:\Users\tigrn\Desktop\Programs\ImageViewer\ImageViewer\ImageViewer\bin\Debug\ImageViewer.pdb
