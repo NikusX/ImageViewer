@@ -125,6 +125,7 @@ namespace ImageViewer
                 string[] str = File.ReadAllLines(pnfl.FileName);
                 string[] raz = str[0].Split('\t');
                 int count = 0;
+                float[] pix = new float[width * height * 4];
                 Color pxlclr2;
                 width = Convert.ToInt32(raz[0]);
                 height = Convert.ToInt32(raz[1]);
@@ -134,10 +135,10 @@ namespace ImageViewer
                     for (int x = 0; x < width; x++)
                     {
                         string[] d = str[x + y * width + 1].Split('\t');
-                        fltpxl[count] = (float)(Convert.ToDouble((d[0])));
-                        fltpxl[count+1] = (float)(Convert.ToDouble((d[1])));
-                        fltpxl[count+2] = (float)(Convert.ToDouble((d[2])));
-                        fltpxl[count+3] = (float)(Convert.ToDouble((d[3])));
+                        pix[count] = (float)(Convert.ToDouble((d[0])));
+                        pix[count+1] = (float)(Convert.ToDouble((d[1])));
+                        pix[count+2] = (float)(Convert.ToDouble((d[2])));
+                        pix[count+3] = (float)(Convert.ToDouble((d[3])));
                         count += 4;
                     }
                 }
@@ -146,7 +147,7 @@ namespace ImageViewer
                 {
                     for (int x1 = 0; x1 < width; x1++)
                     {
-                        pxlclr2 = Color.FromArgb((int)fltpxl[count2], (int)fltpxl[count2 + 1], (int)fltpxl[count2 + 2], (int)fltpxl[count2 + 3]);
+                        pxlclr2 = Color.FromArgb((int)pix[count2], (int)pix[count2 + 1], (int)pix[count2 + 2], (int)pix[count2 + 3]);
                         bmpVivod.SetPixel(x1, y1, pxlclr2);
                         count2 += 4;
                     }
