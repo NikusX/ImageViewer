@@ -111,14 +111,14 @@
             // вФайлToolStripMenuItem
             // 
             this.вФайлToolStripMenuItem.Name = "вФайлToolStripMenuItem";
-            this.вФайлToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.вФайлToolStripMenuItem.Size = new System.Drawing.Size(132, 26);
             this.вФайлToolStripMenuItem.Text = "В файл";
             this.вФайлToolStripMenuItem.Click += new System.EventHandler(this.вФайлToolStripMenuItem_Click);
             // 
             // вNikToolStripMenuItem
             // 
             this.вNikToolStripMenuItem.Name = "вNikToolStripMenuItem";
-            this.вNikToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.вNikToolStripMenuItem.Size = new System.Drawing.Size(132, 26);
             this.вNikToolStripMenuItem.Text = "В nik";
             this.вNikToolStripMenuItem.Click += new System.EventHandler(this.вNikToolStripMenuItem_Click);
             // 
@@ -129,32 +129,41 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox1.Location = new System.Drawing.Point(12, 528);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(40, 21);
             this.checkBox1.TabIndex = 2;
             this.checkBox1.Text = "R";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
+            this.checkBox2.Checked = true;
+            this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox2.Location = new System.Drawing.Point(58, 528);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(41, 21);
             this.checkBox2.TabIndex = 3;
             this.checkBox2.Text = "G";
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
+            this.checkBox3.Checked = true;
+            this.checkBox3.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox3.Location = new System.Drawing.Point(105, 528);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(39, 21);
             this.checkBox3.TabIndex = 4;
             this.checkBox3.Text = "B";
             this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // Form1
             // 
